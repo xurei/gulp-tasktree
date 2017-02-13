@@ -1,0 +1,32 @@
+{
+  "name": "gulp-tasktree",
+  "version": "0.0.1",
+  "description": "Visualize your tasks dependencies extensively",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xurei/gulp-tasktree.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Olivier Bourdoux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xurei/gulp-tasktree/issues"
+  },
+  "homepage": "https://github.com/xurei/gulp-tasktree#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-task-graph-visualizer": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "xurei-util": "^1.3.2"
+  }
+}
